@@ -13,7 +13,7 @@ The dataset encompasses a total of 549,346 entries, categorized into two main co
 ## Preprocessing
 In order to maintain data integrity:
 - Duplicate entries were eradicated from the dataset.
-- URL embeddings were generated to transform the URLs into vector representations. The URLEmbedder class is included in the url_embedding.py script. A sentence-transformers model available on[HuggingFace] (https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2) was used to map the textual URL's into a 384 dimensional dense vector space. Due to the substantial size of the resulting pickle (pkl) file, approximately 4.2GB, it is not included within this repository.
+- URL embeddings were generated to transform the URLs into vector representations. The URLEmbedder class is included in the url_embedding.py script. A sentence-transformers model available on[HuggingFace](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2) was used to map the textual URL's into a 384 dimensional dense vector space. Due to the substantial size of the resulting pickle (pkl) file, approximately 4.2GB, it is not included within this repository.
 
 Additionally, to assist in visual analysis and better understand the distribution of URLs:
 - UMAP (Uniform Manifold Approximation and Projection) was utilized to reduce the dimensionality of the URL embeddings, enabling a 2D visualization of the dataset.
