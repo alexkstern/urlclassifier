@@ -25,8 +25,10 @@ A subset of the dataset, showcasing some of the URL embeddings, is provided in t
 ## Model Training
 - A Random Forest classifier was used to train the classification model.
 - The model training process was performed using a Google Colab account to facilitate the training due to resource requirements.
+- In addition, an MLP Classifier was used which yielded better results over the random forest classifier.
 
 ### Results
 - The trained Random Forest classifier achieved an accuracy of 92%.
-- This model was not uploaded to the repository due to file size issues.
+- The trained MLP Classifier achieved an accuracy of 96%.
+- The models were not uploaded to the repository due to file size issues.
 
